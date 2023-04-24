@@ -15,7 +15,7 @@ for year in years:
     x = data.columns[data.columns.str.startswith('x')].values.tolist()
     y = ["y"]
 
-    #CVDEA
+    #Superefficiency
     model_superDEA = sDEA.DEA(data[x + y], x, y)
     result, lst_sig = model_superDEA.superDEA()
 
