@@ -7,7 +7,7 @@
 git clone https://github.com/MiriamEsteve/LOOCV.git
 ```
 
-<b>Step 2</b>. Place us in the folder created by EATpy, using "cd EATpy", and execute the instruction:
+<b>Step 2</b>. Place us in the folder created by LOOCV, using "cd LOOCV", and execute the instruction:
 ```
 python setup.py install
 ```
